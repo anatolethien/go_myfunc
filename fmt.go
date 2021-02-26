@@ -26,6 +26,7 @@ func PrintString(s string) error {
 
 	var err error
 
+	// Printing the string using PrintRune()
 	for _, v := range s {
 		err = PrintRune(v)
 	}
